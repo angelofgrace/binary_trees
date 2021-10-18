@@ -30,6 +30,9 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 /** Task 1 - create a new node as a left child **/
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
+/** Task 2 - create a new node as a right child **/
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+
 
 
 /** Resource code print binary tree to terminal **/
