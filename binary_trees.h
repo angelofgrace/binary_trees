@@ -45,6 +45,9 @@ int binary_tree_is_root(const binary_tree_t *node);
 /** Task 6 - traverse a binary tree in preorder fashion **/
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
+/** Task 7 - traverse a binary tree in inorder fashion **/
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+
 /** Resource code print binary tree to terminal **/
 void binary_tree_print(const binary_tree_t *tree);
 
