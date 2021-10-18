@@ -4,6 +4,8 @@
 * binary_tree_is_root - determine whether a node has a parent
 *
 * @node: binary tree node to evaluate
+*
+* Return: 1 if root, 0 if absent or false
 */
 int binary_tree_is_root(const binary_tree_t *node)
 {
