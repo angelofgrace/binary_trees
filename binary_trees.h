@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 
 /**
@@ -26,7 +27,13 @@ typedef struct binary_tree_s binary_tree_t;
 /** Task 0 - create a new binary tree node **/
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
+/** Task 1 - create a new node as a left child **/
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
+
+
+/** Resource code print binary tree to terminal **/
+void binary_tree_print(const binary_tree_t *tree);
 
 
 #endif
