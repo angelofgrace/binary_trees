@@ -5,7 +5,7 @@
 * in preorder fashion, from leftmost child to root
 *
 * @tree: root of tree to traverse
-* @*func: pointer to function to execute on value stored in each node
+* @func: pointer to function to execute on value stored in each node
 *
 * Return: void, when root is reached
 */
