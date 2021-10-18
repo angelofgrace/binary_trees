@@ -39,6 +39,11 @@ void binary_tree_delete(binary_tree_t *tree);
 /** Task 4 - find whether a node is a leaf **/
 int binary_tree_is_leaf(const binary_tree_t *node);
 
+/** Task 5 - find whether a node is a root **/
+int binary_tree_is_root(const binary_tree_t *node);
+
+
+
 /** Resource code print binary tree to terminal **/
 void binary_tree_print(const binary_tree_t *tree);
 
