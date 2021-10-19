@@ -60,6 +60,9 @@ size_t binary_tree_depth(const binary_tree_t *tree);
 /** Task 11 - find the size of a binary tree **/
 size_t binary_tree_size(const binary_tree_t *tree);
 
+/** Task 12 - find the number of leaf nodes in a binary tree **/
+size_t binary_tree_leaves(const binary_tree_t *tree);
+
 /** Resource code print binary tree to terminal **/
 void binary_tree_print(const binary_tree_t *tree);
 
