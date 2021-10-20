@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
-* binary_tree_uncle - search the binary family tree for 
+* binary_tree_uncle - search the binary family tree for
 * the uncle node of a given node
 *
 * @node: the (grand)child node to search from
