@@ -69,6 +69,10 @@ size_t binary_tree_nodes(const binary_tree_t *tree);
 /** Task 14 - find the balance factor of a binary tree **/
 int binary_tree_balance(const binary_tree_t *tree);
 
+/** Task 15 - determine if a binary tree is full **/
+int binary_tree_is_full(const binary_tree_t *tree);
+
+
 /** Resource code print binary tree to terminal **/
 void binary_tree_print(const binary_tree_t *tree);
 
