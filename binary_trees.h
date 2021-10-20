@@ -79,6 +79,9 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 /** Task 17 - find the sibling of a binary tree node **/
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
+/** Task 18 - find the uncle of a binary tree node **/
+binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+
 /** Resource code print binary tree to terminal **/
 void binary_tree_print(const binary_tree_t *tree);
 
