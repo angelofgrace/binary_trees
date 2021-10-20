@@ -2,6 +2,7 @@
 # define BINARY_TREES
 
 #include <stdio.h>
+#include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -72,6 +73,8 @@ int binary_tree_balance(const binary_tree_t *tree);
 /** Task 15 - determine if a binary tree is full **/
 int binary_tree_is_full(const binary_tree_t *tree);
 
+/** Task 16 - determine if a binary tree is perfect **/
+int binary_tree_is_perfect(const binary_tree_t *tree);
 
 /** Resource code print binary tree to terminal **/
 void binary_tree_print(const binary_tree_t *tree);
