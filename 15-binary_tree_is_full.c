@@ -23,9 +23,9 @@ int binary_tree_is_full(const binary_tree_t *tree)
 		return (1);
 	}
 
-	if ((root->left) && (root->right))
+	if ((tree->left) && (tree->right))
 	{
-		return (binary_tree_is_full(root->left) && binary_tree_is_full(root->right));
+		return (binary_tree_is_full(tree->left) && binary_tree_is_full(tree->right));
 	}
 
 	/* if all branches do not catch the first if statement, it is not full */
