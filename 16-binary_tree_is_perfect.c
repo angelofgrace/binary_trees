@@ -72,6 +72,6 @@ bool is_perfect(const binary_tree_t *tree, int depth, int level)
 	}
 
 	/* both children must be true to return true */
-	return (is_perfect(tree->left, depth, level + 1) && 
+	return (is_perfect(tree->left, depth, level + 1) &&
 		is_perfect(tree->right, depth, level + 1));
 }
